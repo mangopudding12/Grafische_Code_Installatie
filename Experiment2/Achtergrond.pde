@@ -53,11 +53,11 @@ class achtergrond
             xA += snelheid.x; 
             yA += snelheid.y;
             zien = true; 
-            println("beweeg");
+            //println("beweeg");
           } 
           else 
           {
-            println("sta stil");//xA = displayWidth * random(0,1); 
+            //println("sta stil");//xA = displayWidth * random(0,1); 
             
             xA = displayWidth * random(0,1); // Zet op een random plek. 
             yA = displayHeight * random(0,1);
@@ -95,7 +95,7 @@ class achtergrond
                  }
            } else if (key == 'q' || key == 'Q') // snelheid alleen als z uit staat. 
                  {
-                     println("snelheid"); 
+                     //println("snelheid"); 
                      display();
                  } 
            
