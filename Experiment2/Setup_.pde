@@ -2,6 +2,7 @@ void setup ()
   {
       // displayWidth= 1600 & displayHeight = 900
       size (displayWidth, displayHeight); 
+      smooth(); 
       
        // background 
        HowMuch_Objects = 150; // Hoeveel cirkels 
@@ -13,22 +14,22 @@ void setup ()
        }  
        
        // Filmpjes 
-       Pinquin = new Movie(this, "Pinquin.mov");
+       Pinquin = new Movie(this, "Juno1.mov");
        XP = 200; 
        YP = 200; 
-       BP = 200; 
-       HP = 200; 
-       
-//       Pinquin.play(); 
-//       Pinquin.read(); // Lees 1 frame
-//       Pinquin.stop(); // zet film op pause 
-//       
+       BP = 50; 
+       HP = 50; 
+            
        snelFilmpje = new PVector (0,0);
        
        // Muis 
-       MuisB = 40; 
-       MuisH = 40; 
+       Cursor = new muis();  
        StartFilm = false; 
+       
+       // Zorg dat die wel zichtbaar is meteen als je hem aan doet. 
+       Pinquin.play(); 
+       Pinquin.read(); 
+       Pinquin.stop(); 
        
  } // end setup 
   

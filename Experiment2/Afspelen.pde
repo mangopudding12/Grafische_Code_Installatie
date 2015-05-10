@@ -3,35 +3,41 @@
 
   void Afspelen () 
   {
-     if (XP < mouseX + MuisB &&
+     if (XP < mouseX + Cursor.muisB &&
          XP + BP > mouseX &&
-         YP < mouseY + MuisH &&
+         YP < mouseY + Cursor.muisH &&
          HP + YP > mouseY)
         {
           println("Start the film"); 
           StartFilm = true;
-          println(StartFilm);
-        } else 
-        {
+          
+          if (BP >= 300)
+          {
+              Pinquin.play(); 
+              Pinquin.loop();
+          }
+    
+        } else {
           StartFilm = false; 
           println("aaa");
+          
+          Pinquin.pause(); 
         }
       
-      if (StartFilm == true)
-      {  
-          Pinquin.loop(); 
-          Pinquin.play();    
-      } else { 
-          Pinquin.play(); 
-      }
-           
      
-      
-      
-      
-      
-      
-      
-      
-      
+      if (StartFilm == true)
+      {
+           if (BP < 300 && HP < 300)
+           {
+               BP +=10;
+               HP +=10; 
+           } 
+      } else {
+        
+        if (BP >= 50)
+           {
+               BP --;
+               HP --; 
+           }   
+      }  
   }

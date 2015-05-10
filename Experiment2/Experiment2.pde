@@ -15,13 +15,12 @@
       } // end for loop 
       
       
-      // Filmpjes
-        
+      // Filmpjes  
        MoveFilmpje(random(-4,4),random(-4,4)); // Laat filmpje bewegen.
-       muis(); 
+       Cursor.display(); 
        Afspelen(); // Kijkt of muis filmpje raakt.  
        
-                if (Pinquin.available()) // Leest of er frame van filmpje beschikbaar zijn. 
+           if (Pinquin.available()) // Leest of er frame van filmpje beschikbaar zijn. 
            {
                Pinquin.read();       
            }

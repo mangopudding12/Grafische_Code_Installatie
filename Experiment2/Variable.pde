@@ -14,10 +14,10 @@
   int z; 
         
   // Muis 
-  float MuisB; 
-  float MuisH; 
+  muis Cursor; 
   boolean StartFilm; 
   int Wanneer; 
+ 
         
   // background 
   achtergrond[] background; 

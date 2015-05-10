@@ -19,8 +19,8 @@
           {
            // println("sta stil");//xA = displayWidth * random(0,1); 
             
-            XP = random (100,1000); 
-            YP = random (100,600);
+            XP = random (200,1000); 
+            YP = random (200,600);
             zichtbaar = false;
         }
       
