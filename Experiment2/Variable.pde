@@ -12,13 +12,28 @@
   boolean zichtbaar;
   int Do; 
   int z; 
+  boolean StartFilm; 
+  
+  // Movies Array 
+  Movie [] Film; 
+  int HoeVeel;
+  float [] XF; 
+  float [] YF;
+  float [] BF;
+  float [] HF; 
+  PVector[] snelHeid; 
+  boolean on_off; 
+  boolean visible;
+  int Doo; 
+  int zz;  
+  boolean StartF;  
+  float [] snelx_; 
+  float [] snely_;
+  
         
   // Muis 
   muis Cursor; 
-  boolean StartFilm; 
-  int Wanneer; 
- 
-        
+    
   // background 
   achtergrond[] background; 
   int HowMuch_Objects; 
