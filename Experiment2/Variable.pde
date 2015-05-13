@@ -37,3 +37,14 @@
   // background 
   achtergrond[] background; 
   int HowMuch_Objects; 
+  
+  // Start dromen kracht 
+  boolean Dromenkracht = false; 
+  int Welkezin = 0; 
+  int WelkezinTrue = 0; 
+  
+  // Tekst 
+  PFont f; 
+  PFont createdFont; 
+
+  

@@ -66,7 +66,11 @@ void setup ()
        
        // Muis 
        Cursor = new muis();  
-       
-       
+  
+       // ----------------------------------------------------------------------------
+       // DroomKracht 
+       f = loadFont ("BroadwayCopyistTextExt-48.vlw"); 
+       textFont(f,52);
+    
  } // end setup 
   
