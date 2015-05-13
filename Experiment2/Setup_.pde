@@ -15,23 +15,23 @@ void setup ()
        
        //----------------------------------------------------------------------
        // Filmpjes 
-       Pinquin = new Movie(this, "Pinquin.mov");
-       XP = 200; 
-       YP = 200; 
-       BP = 50; 
-       HP = 50;     
-       snelFilmpje = new PVector (0,0);
-       
-       StartFilm = false; 
-       
-       // Zorg dat die wel zichtbaar is meteen als je hem aan doet. 
-       Pinquin.play(); 
-       Pinquin.read(); 
-       Pinquin.stop(); 
+//       Pinquin = new Movie(this, "Pinquin.mov");
+//       XP = 200; 
+//       YP = 200; 
+//       BP = 50; 
+//       HP = 50;     
+//       snelFilmpje = new PVector (0,0);
+//       
+//       StartFilm = false; 
+//       
+//       // Zorg dat die wel zichtbaar is meteen als je hem aan doet. 
+//       Pinquin.play(); 
+//       Pinquin.read(); 
+//       Pinquin.stop(); 
        
        //--------------------------------------------------------------------------
        // Array Filmpjes 
-       HoeVeel = 5; 
+       HoeVeel = 7; 
        
        Film = new Movie[HoeVeel];
        XF = new float[HoeVeel];

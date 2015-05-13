@@ -21,15 +21,6 @@
               background[g].zichtbaar();
           } // end for loop 
       
-      
-          // Filmpjes  
-          MoveFilmpje(random(-4,4),random(-4,4)); // Laat filmpje bewegen.
-          Afspelen(); // Kijkt of muis filmpje raakt.  
-       
-             if (Pinquin.available()) // Leest of er frame van filmpje beschikbaar zijn. 
-             {
-                 Pinquin.read();       
-             }
    
           // Array Filmpjes 
           for (int h = 0; h < HoeVeel; h++)
