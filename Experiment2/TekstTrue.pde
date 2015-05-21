@@ -14,7 +14,7 @@ void TekstTrue ()
            textFont(f,45);
            fill (255,255,150);
            String www = "Druk op A om terug te keren naar parralel universum";
-           text (www,400,850);
+           text (www,400,750);
            
            if (keyPressed == true)
            {
@@ -34,7 +34,7 @@ void TekstTrue ()
            textFont(f,45);
            fill (255,255,150);
            String ww = "Druk op Z om je droomkrachten opnieuw uit te oefenen";
-           text (ww,600,850);
+           text (ww,600,750);
            
            if (keyPressed == true)
            {
@@ -50,7 +50,7 @@ void TekstTrue ()
            textFont(f,52);
            fill (255,255,150);
            String ww = "Vang de dromen";
-           text (ww,1000,850);
+           text (ww,1000,750);
            
            if (keyPressed == true)
            {
