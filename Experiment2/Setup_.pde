@@ -4,6 +4,11 @@ void setup ()
       size (displayWidth, displayHeight); 
       smooth(); 
       
+      // Geluid 
+      minim = new Minim(this);
+      player = minim.loadFile("spreken1.wav");
+  
+      
        // background 
        HowMuch_Objects = 150; // Hoeveel cirkels 
        background = new achtergrond [HowMuch_Objects];

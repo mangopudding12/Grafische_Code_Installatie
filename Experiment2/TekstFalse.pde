@@ -9,43 +9,49 @@ void Tekst ()
          {
            textFont(f,100);
            fill (255);
-           String words = "Welkom nieuwe DroomWachter";
+           String words = "rethcaWmoorD ewuein mokleW";
            text (words,300,300);
           
            textFont(f,45);
            fill(255,255,150); 
-           String word = "Klik op de muis voor de volgende zin";
+           String word = ".niz edneglov ed roov sium ed po kilK";
            text (word,300,350); 
+           
+           // Geluid 
+           player.play();
            
          } else if (Welkezin == 1) {
            
            textFont(f,80);
-           fill (255);
-           String words = "Je bent nu in het parralel universum.";
+           fill (255);     // Of moet echt ook worden in spiegel beeld 
+           String words = ".musrevinu lelarrap teh ni un tneb eJ";
            text (words,300,300);
            
            textFont(f,80);
-           fill (255);
-           String word = "Tussen de levende en de droomende wezens";
+           fill (255);    // IS dit goed ??
+           String word = "nessuT ed ednevel, ednemoord snezew";
            text (word,300,400);
            
+           // geluid 
+           player.pause();
+                 
          } else if (Welkezin >= 2){ 
            
            
            textFont(f,80);
            fill (255);
-           String words = "Activeer je DroomKracht door,";
+           String words = ",rood thcarKmoorD ej reevitcA";
            text (words,300,300);
            
            
            textFont(f,80);
            fill (255);
-           String word = "de poort der droomende te openen";
+           String word = "nenepo et ednemoord red troop ed";
            text (word,300,400);
            
            textFont(f,45);
            fill (255,255,150);
-           String www = "Druk op q om je droomkrachten te activeren";
+           String www = "nerevitca et nethcarkmoord ej mo q po kurD";
            text (www,300,500);
            
            if (keyPressed == true)

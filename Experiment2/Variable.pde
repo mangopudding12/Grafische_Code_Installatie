@@ -1,6 +1,9 @@
 // Liberia for video's. 
   import processing.video.*;
-
+  import ddf.minim.*;
+  Minim minim;
+  AudioPlayer player;
+  
   // Making the movie 
   Movie Pinquin; 
   float XP; 

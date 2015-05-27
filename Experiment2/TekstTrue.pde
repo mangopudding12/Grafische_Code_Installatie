@@ -7,13 +7,13 @@ void TekstTrue ()
     if (WelkezinTrue == 0)
     {
            textFont(f,80);
-           fill (255);
-           String word = "Je hebt je krachten niet onder controlle !!";
+           fill (255);  // is dit nou goed anders moet ik dit ook nog veranderen. 
+           String word = "ej tbeh ej nethcark tein redno ellortnoc !!";
            text (word,300,100);
            
            textFont(f,45);
            fill (255,255,150);
-           String www = "Druk op A om terug te keren naar parralel universum";
+           String www = "musrevinu lelarrap raan nerek et guret mo A po kurD";
            text (www,400,750);
            
            if (keyPressed == true)
@@ -28,12 +28,12 @@ void TekstTrue ()
       
            textFont(f,80);
            fill (255);
-           String word = "Focus je krachten en beweeg de muis";
+           String word = "sium ed geeweb ne nethcark ej sucoF";
            text (word,300,100);
            
            textFont(f,45);
            fill (255,255,150);
-           String ww = "Druk op Z om je droomkrachten opnieuw uit te oefenen";
+           String ww = "nenefeo et tiu wueinpo nethcarkmoord ej mo Z po kruD";
            text (ww,600,750);
            
            if (keyPressed == true)
@@ -49,7 +49,7 @@ void TekstTrue ()
       
            textFont(f,52);
            fill (255,255,150);
-           String ww = "Vang de dromen";
+           String ww = "nemord ed gnaV";
            text (ww,1000,750);
            
            if (keyPressed == true)
