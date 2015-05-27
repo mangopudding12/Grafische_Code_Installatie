@@ -16,6 +16,9 @@ void TekstTrue ()
            String www = "musrevinu lelarrap raan nerek et guret mo A po kurD";
            text (www,400,750);
            
+          derde.pause();
+          vier.play(); 
+           
            if (keyPressed == true)
            {
               if  (key == 'A' || key == 'a')
@@ -36,6 +39,10 @@ void TekstTrue ()
            String ww = "nenefeo et tiu wueinpo nethcarkmoord ej mo Z po kruD";
            text (ww,600,750);
            
+           vier.pause(); 
+           vijf.play(); 
+           
+           
            if (keyPressed == true)
            {
               if  (key == 'Z' || key == 'z')
@@ -52,11 +59,14 @@ void TekstTrue ()
            String ww = "nemord ed gnaV";
            text (ww,1000,750);
            
+           zes.play(); 
+           
            if (keyPressed == true)
            {
               if  (key == 'B' || key == 'b')
               {
                   WelkezinTrue = 3; 
+                  zes.pause();
               }
            }
       

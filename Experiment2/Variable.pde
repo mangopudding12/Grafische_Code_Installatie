@@ -2,7 +2,12 @@
   import processing.video.*;
   import ddf.minim.*;
   Minim minim;
-  AudioPlayer player;
+  AudioPlayer een;
+  AudioPlayer twee;
+  AudioPlayer derde;
+  AudioPlayer vier;
+  AudioPlayer vijf;
+  AudioPlayer zes;
   
   // Making the movie 
   Movie Pinquin; 

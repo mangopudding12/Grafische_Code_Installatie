@@ -6,7 +6,12 @@ void setup ()
       
       // Geluid 
       minim = new Minim(this);
-      player = minim.loadFile("spreken1.wav");
+      een = minim.loadFile("Tekst1.wav");
+      twee = minim.loadFile("Tekst2.wav");
+      derde = minim.loadFile("Tekst3.wav");
+      vier = minim.loadFile("Tekst4.wav");
+      vijf = minim.loadFile("Tekst5.wav");
+      zes = minim.loadFile("Tekst6.wav");
   
       
        // background 

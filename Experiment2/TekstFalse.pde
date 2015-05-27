@@ -18,7 +18,8 @@ void Tekst ()
            text (word,300,350); 
            
            // Geluid 
-           player.play();
+           een.play();
+           
            
          } else if (Welkezin == 1) {
            
@@ -33,7 +34,8 @@ void Tekst ()
            text (word,300,400);
            
            // geluid 
-           player.pause();
+           een.pause();
+           twee.play(); 
                  
          } else if (Welkezin >= 2){ 
            
@@ -53,6 +55,9 @@ void Tekst ()
            fill (255,255,150);
            String www = "nerevitca et nethcarkmoord ej mo q po kurD";
            text (www,300,500);
+           
+           twee.pause(); 
+           derde.play(); 
            
            if (keyPressed == true)
            {
